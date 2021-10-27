@@ -26,7 +26,7 @@
 <li class="nav-item">
     <a class="nav-link" href="data_guru">
         <i class="fas fa-users"></i>
-        <span>Data Guru</span></a>
+        <span>Daftar Guru</span></a>
 </li>
 
 <!-- Nav Item - Tables -->
