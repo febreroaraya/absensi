@@ -24,7 +24,7 @@
 
 <!-- Nav Item - Data Guru -->
 <li class="nav-item">
-    <a class="nav-link" href="data_guru.php">
+    <a class="nav-link" href="data_guru">
         <i class="fas fa-users"></i>
         <span>Data Guru</span></a>
 </li>

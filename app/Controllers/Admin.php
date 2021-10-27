@@ -8,4 +8,9 @@ class Admin extends BaseController
     {
         return view('/admin/index');
     }
+
+    public function data_guru()
+    {
+        return view('/admin/data_guru');
+    }
 }
