@@ -2,10 +2,10 @@
 
 namespace App\Controllers;
 
-class Guru extends BaseController
+class Admin extends BaseController
 {
     public function index()
     {
-        return view('/guru/index');
+        return view('/admin/index');
     }
 }

@@ -52,7 +52,7 @@
                     if(res.is_error){
                         toastr["error"](res.msg);
                     }else{
-                        window.location = "/guru/index";
+                        window.location = "/admin/index";
                     }
                 },error:function(){
                     toastr["error"]("Gagal login, coba beberapa saat lagi");
