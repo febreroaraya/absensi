@@ -14,4 +14,9 @@ class Mdl_guru extends Model
     {
         return $this->db->table('guru')->get();
     }
+
+    public function tambah($data)
+    {
+        return $this->db->table('guru')->insert($data);
+    }
 }

@@ -31,10 +31,10 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
-        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/guru/index">
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/admin/index">
             <div class="sidebar-brand-icon">
                 <i class="fas fa-school"></i>
             </div>
@@ -151,6 +151,11 @@
                     <!-- Page Heading -->
                     <h1 class="h3 mb-4 text-gray-800 text-center"><?= $judul; ?></h1>
                     <div class="card">
+                    <div class="card-header">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaltambah">
+                                <i>Tambah Data</i>
+                            </button>
+                    </div>
                         <div class="card-body">
                             <table class="table table-striped">
                                 <thead>
@@ -181,6 +186,36 @@
 
             </div>
             <!-- End of Main Content -->
+            
+            <!-- Modal -->
+            <div class="modal fade" id="modaltambah">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Tambah Guru</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="tambah">
+                            <div class="form-group mb-0">
+                              <label for="nama"></label>
+                              <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan nama">
+                            </div>
+                            <div class="form-group mb-0">
+                              <label for="username"></label>
+                              <input type="text" name="username" id="username" class="form-control" placeholder="Masukkan username">
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Tambah</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
