@@ -29,7 +29,7 @@
                                                 Me</label>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary btn-user  btn-block" type="submit">Login</button>
+                                    <button class="btn btn-info btn-user  btn-block" type="submit">Login</button>
                                 </form>
                                 <hr>
                             </div>
