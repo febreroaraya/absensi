@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+ERROR - 2021-10-27 02:24:30 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 02:24:30 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\absensi\app\Models\Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 C:\xampp\htdocs\absensi\app\Controllers\Ajax.php(18): App\Models\Mdl_login->login('huhu', 'hihi')
+=======
+ERROR - 2021-10-27 02:25:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 02:25:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\absensi\app\Models\Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 C:\xampp\htdocs\absensi\app\Controllers\Ajax.php(18): App\Models\Mdl_login->login('fadil', 'febrero')
+>>>>>>> e298384cb8d6d08b842595524ea2ab8bcb1cd09f
+#3 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\absensi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+<<<<<<< HEAD
+=======
+ERROR - 2021-10-27 02:25:36 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 02:25:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\absensi\app\Models\Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 C:\xampp\htdocs\absensi\app\Controllers\Ajax.php(18): App\Models\Mdl_login->login('fadil', 'febrero')
+#3 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\absensi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-27 04:17:11 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-10-27 04:17:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/absensi/app/Models/Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 /Applications/MAMP/htdocs/absensi/app/Controllers/Ajax.php(18): App\Models\Mdl_login->login('fadil', '123')
+#3 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-27 04:17:13 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-10-27 04:17:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/absensi/app/Models/Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 /Applications/MAMP/htdocs/absensi/app/Controllers/Ajax.php(18): App\Models\Mdl_login->login('fadil', '123')
+#3 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-27 04:18:10 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2021-10-27 04:18:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/absensi/app/Models/Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 /Applications/MAMP/htdocs/absensi/app/Controllers/Ajax.php(18): App\Models\Mdl_login->login('fadil', '123')
+#3 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-27 10:04:58 --> syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('/admin/data_gur...', Array, true)
+#2 /Applications/MAMP/htdocs/absensi/app/Controllers/Admin.php(20): view('/admin/data_gur...', Array)
+#3 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin->data_guru()
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-10-27 11:35:48 --> Cannot use object of type mysqli as array
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/View/View.php(214): include()
+#1 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('/admin/data_gur...', Array, true)
+#3 /Applications/MAMP/htdocs/absensi/app/Controllers/Admin.php(20): view('/admin/data_gur...', Array)
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin->data_guru()
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-10-27 13:18:07 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 13:18:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Database/BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `gu...', Array, false)
+#2 /Applications/MAMP/htdocs/absensi/app/Models/Mdl_guru.php(20): CodeIgniter\Database\BaseBuilder->insert(Array)
+#3 /Applications/MAMP/htdocs/absensi/app/Controllers/Admin.php(34): App\Models\Mdl_guru->tambah(Array)
+#4 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin->tambah()
+#5 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Applications/MAMP/htdocs/absensi/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /Applications/MAMP/htdocs/absensi/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#9 {main}
+ERROR - 2021-10-27 13:34:23 --> Column 'nama' cannot be null
+ERROR - 2021-10-27 22:46:21 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 22:46:21 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\absensi\app\Models\Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 C:\xampp\htdocs\absensi\app\Controllers\Ajax.php(18): App\Models\Mdl_login->login('fadil', 'febrero')
+#3 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\absensi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-27 22:46:27 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-10-27 22:46:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\absensi\app\Models\Mdl_login.php(12): CodeIgniter\Database\BaseConnection->query('select * from g...')
+#2 C:\xampp\htdocs\absensi\app\Controllers\Ajax.php(18): App\Models\Mdl_login->login('fadil', 'febrero')
+#3 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Ajax->login()
+#4 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#5 C:\xampp\htdocs\absensi\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\absensi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-10-27 22:47:56 --> Column 'nama' cannot be null
+>>>>>>> e298384cb8d6d08b842595524ea2ab8bcb1cd09f

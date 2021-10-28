@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB - Login Guru</title>
+    <title>Login Admin</title>
 
     <!-- Custom fonts for this template-->
     <link href="/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,6 +22,8 @@
 
 </head>
 
+<body class="bg-gradient-info">
+<body class="bg-gradient-success">
 <body class="bg-gradient-info">
 
 <?= $this->renderSection('content'); ?>
@@ -52,7 +54,7 @@
                     if(res.is_error){
                         toastr["error"](res.msg);
                     }else{
-                        window.location = "/guru/index";
+                        window.location = "/admin/index";
                     }
                 },error:function(){
                     toastr["error"]("Gagal login, coba beberapa saat lagi");
