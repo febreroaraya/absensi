@@ -22,9 +22,16 @@
 
 </head>
 
+<<<<<<< HEAD
 <body class="bg-gradient-info">
 <body class="bg-gradient-success">
 <body class="bg-gradient-info">
+=======
+
+<body class="bg-gradient-success">
+
+
+>>>>>>> 63c23fca9bee25be7f5bc7dce48b59404972eb1b
 
 <?= $this->renderSection('content'); ?>
 
