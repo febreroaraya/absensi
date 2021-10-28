@@ -152,7 +152,7 @@
                     <h1 class="h3 mb-4 text-gray-800 text-center"><?= $judul; ?></h1>
                     <div class="card">
                     <div class="card-header">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modaltambah">
+                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modaltambah">
                                 <i>Tambah Data</i>
                             </button>
                     </div>
