@@ -31,7 +31,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-info sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/admin/index">
@@ -152,7 +152,11 @@
                     <h1 class="h3 mb-4 text-gray-800 text-center"><?= $judul; ?></h1>
                     <div class="card">
                     <div class="card-header">
+<<<<<<< HEAD
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modaltambah">
+=======
+                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modaltambah">
+>>>>>>> 40d83bcc1d999af18cd04f733fba599f2e798b46
                                 <i>Tambah Data</i>
                             </button>
                     </div>
@@ -210,7 +214,7 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Tambah</button>
+                            <button type="submit" class="btn btn-info">Tambah</button>
                         </div>
                     </form>
                     </div>
