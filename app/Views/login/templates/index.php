@@ -22,11 +22,10 @@
 
 </head>
 
-<<<<<<< HEAD
+
 <body class="bg-gradient-success">
-=======
-<body class="bg-gradient-info">
->>>>>>> e298384cb8d6d08b842595524ea2ab8bcb1cd09f
+
+
 
 <?= $this->renderSection('content'); ?>
 

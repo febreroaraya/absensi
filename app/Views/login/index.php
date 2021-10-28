@@ -29,11 +29,8 @@
                                                 Me</label>
                                         </div>
                                     </div>
-<<<<<<< HEAD
                                     <button class="btn btn-success btn-user  btn-block" type="submit">Login</button>
-=======
-                                    <button class="btn btn-info btn-user  btn-block" type="submit">Login</button>
->>>>>>> e298384cb8d6d08b842595524ea2ab8bcb1cd09f
+
                                 </form>
                                 <hr>
                             </div>
