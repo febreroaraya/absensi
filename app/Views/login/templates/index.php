@@ -22,10 +22,6 @@
 
 </head>
 
-<body class="bg-gradient-info">
-<body class="bg-gradient-success">
-<body class="bg-gradient-info">
-
 <body class="bg-gradient-success">
 
 
