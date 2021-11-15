@@ -19,6 +19,7 @@ class Filters extends BaseConfig
         'csrf'     => CSRF::class,
         'toolbar'  => DebugToolbar::class,
         'honeypot' => Honeypot::class,
+        'isLoggedIn'    => \App\Filters\LoginFilter::class,
     ];
 
     /**
@@ -30,7 +31,7 @@ class Filters extends BaseConfig
     public $globals = [
         'before' => [
             // 'honeypot',
-            // 'csrf',
+            'csrf',
         ],
         'after' => [
             'toolbar',
@@ -58,5 +59,13 @@ class Filters extends BaseConfig
      *
      * @var array
      */
-    public $filters = [];
+    public $filters = [
+        'isLoggedIn' => ['before' =>
+            [
+                'home',
+                'guru',
+                'guru/*',
+            ]
+        ]
+    ];
 }

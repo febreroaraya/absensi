@@ -12,11 +12,6 @@ class Mdl_guru extends Model
 
     public function getAllData()
     {
-        return $this->db->table('guru')->get();
-    }
-
-    public function tambah($data)
-    {
-        return $this->db->table('guru')->insert($data);
+        return $this->db->table('tb_user')->get();
     }
 }

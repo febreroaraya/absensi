@@ -1,0 +1,114 @@
+ERROR - 2021-11-13 11:47:57 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:47:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:49:44 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:49:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:49:45 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:49:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:50:22 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:50:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:52:21 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:52:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:52:56 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:52:56 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 11:53:18 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 11:53:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 12:02:42 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-11-13 12:02:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Database.php(67): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Database/Config.php(105): CodeIgniter\Database\Database->loadForge(Object(CodeIgniter\Database\MySQLi\Connection))
+#2 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(36): CodeIgniter\Database\Config::forge()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#4 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#8 {main}
+ERROR - 2021-11-13 12:13:35 --> Can't create database 'db_absen'; database exists
+CRITICAL - 2021-11-13 12:13:35 --> Unable to create the specified database.
+#0 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(37): CodeIgniter\Database\Forge->createDatabase('db_absen')
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#6 {main}
+ERROR - 2021-11-13 12:13:36 --> Can't create database 'db_absen'; database exists
+CRITICAL - 2021-11-13 12:13:36 --> Unable to create the specified database.
+#0 /Applications/MAMP/htdocs/baru/app/Config/Routes.php(37): CodeIgniter\Database\Forge->createDatabase('db_absen')
+#1 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(758): CodeIgniter\CodeIgniter->Config\{closure}()
+#2 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#3 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /Applications/MAMP/htdocs/baru/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /Applications/MAMP/htdocs/baru/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/Applications/M...')
+#6 {main}

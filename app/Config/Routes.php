@@ -31,7 +31,22 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-// $routes->get('/', 'Frontend::index');
+// $routes->get('/', 'Home::index');
+$routes->get('create-db', function() {
+    $forge = \Config\Database::forge();
+    if ($forge->createDatabase('db_absen')) {
+        echo 'Database created!';
+    }
+});
+
+$routes->get('login', 'Auth::login');
+$routes->addRedirect('/', 'home');
+$routes->get('guru', 'Guru::index');
+$routes->get('guru/add', 'Guru::create');
+$routes->post('guru', 'Guru::store');
+$routes->get('guru/edit/(:num)', 'Guru::edit/$1');
+$routes->put('guru/(:any)', 'Guru::update/$1');
+$routes->delete('guru/(:segment)', 'Guru::destroy/$1');
 
 /*
  * --------------------------------------------------------------------
