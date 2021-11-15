@@ -35,5 +35,10 @@ class Admin extends BaseController
         if ($success) {
             return redirect()->to(base_url('data_guru'));
         }
+    public function hapus($id){
+        $where = array('id' => $id);
+        $this->Mdl_guru->hapus_data($where,'user');
+        redirect('Admin/index');
+    }
     }
 }
