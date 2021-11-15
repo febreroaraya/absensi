@@ -149,37 +149,43 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-4 text-gray-800 text-center"><?= $judul; ?></h1>
-                    <div class="card">
-                    <div class="card-header">
-                            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modaltambah">
-                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modaltambah">
-                                <i>Tambah Data</i>
-                            </button>
-                    </div>
-                        <div class="card-body">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>No</th>
-                                        <th>Nama</th>
-                                        <th>Username</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php $i = 1; ?>
-                                    <?php foreach($guru->getResultArray() as $row) : ?>
-                                    <tr>
-                                        <td scope="row"><?= $i; ?></td>
-                                        <td><?= $row['nama']; ?></td>
-                                        <td><?= $row['username']; ?></td>
-                                    </tr>
-                                    <?php $i++; ?>
+                <div class="card shadow mb-4">
+                     <div class="card-header py-3">
+                         <h6 class="m-0 font-weight-bold text-primary text-center">Data Guru</h6>
+                     </div>
+                     <div class="card-body">
+                         <div class="table-responsive">
+                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                 <thead>
+                                     <tr>
+                                         <th>No</th>
+                                         <th>Nama</th>
+                                         <th>Username</th>
+                                         <th>Aksi</th>
+
+                                     </tr>
+                                 </thead>
+                                 <tbody>
+                                     <?php $i = 1; ?>
+                                     <?php foreach($guru->getResultArray() as $row) : ?>
+                                        <tr>
+                                            <td scope="row"><?= $i ?></td>
+                                            <td><?= $row['nama']; ?></td>
+                                            <td><?= $row['username']; ?></td>
+                                            <td class="text-center" style="width: 15%">
+                                                <a href="<?= site_url('admin/tambah/'.$guru->id) ?>" class="btn btn-primary btn-sm"><i class="fas fa-plus"></i></a>
+                                                <a href="" class="btn btn-warning btn-sm"><i class="fas fa-pencil-alt"></i></a>
+                                                <a href="" class="btn btn-danger btn-sm"><i class="fas fa-trash"></i></a>
+                                            </td>
+                                        </tr>
+                                        <?php $i++ ?>
                                     <?php endforeach; ?>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
+
+                                 </tbody>
+                             </table>
+                         </div>
+                     </div>
+                </div>
                     
 
                 </div>
